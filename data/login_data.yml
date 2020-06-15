@@ -1,0 +1,19 @@
+#test_login:
+#  -
+#    - "15506766921"
+#    - "123456"
+#    - "成功"
+#  -
+#    - "15506766921"
+#    - "1234561"
+#    - "不存在"
+
+test_login:
+  test_login_001:
+    username: "15506766921"
+    password: "123456"
+    toast: "成功"
+  test_login_002:
+    username: "15506766921"
+    password: "1234562"
+    toast: "不存在"
